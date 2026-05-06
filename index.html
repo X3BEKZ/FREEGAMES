@@ -294,6 +294,33 @@ print("the end")
 
 <button onclick="copyCode('code10')">Copy Code</button>
 </div>
+
+<div class="code-section">
+<div class="code-title">While Loop with <b>Break</b></div>
+
+<pre><code class="language-python" id="code10">
+eng=int(input("Enter English Marks: "))
+math=int(input("Enter Math Marks: "))
+sci=int(input("Enter Science Marks: "))
+comp=int(input("Enter Computer Marks: "))
+urdu=int(input("Enter Urdu Marks: "))
+per=(eng + math + sci + comp + urdu) / 5
+if per >= 90:
+    print("Grade A")
+elif per >= 80:
+    print("Grade B")
+elif per >= 70:
+    print("Grade C")
+elif per >= 60:
+    print("Grade D")
+elif per >= 50:
+    print("Grade E")
+else:
+    print("Grade F")
+</code></pre>
+
+<button onclick="copyCode('code10')">Copy Code</button>
+</div>
 <!-- SCRIPTS -->
 <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
